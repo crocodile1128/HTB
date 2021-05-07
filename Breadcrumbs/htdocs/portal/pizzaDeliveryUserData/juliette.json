@@ -1,0 +1,11 @@
+{
+	"pizza" : "margherita",
+	"size" : "large",	
+	"drink" : "water",
+	"card" : "VISA",
+	"PIN" : "9890",
+	"alternate" : {
+		"username" : "juliette",
+		"password" : "jUli901./())!",
+	}
+}

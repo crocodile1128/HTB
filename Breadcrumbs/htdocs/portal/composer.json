@@ -1,0 +1,6 @@
+{
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "furqansiddiqui/base58check-php": "^0.1.5"
+    }
+}

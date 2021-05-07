@@ -1,0 +1,7 @@
+nmap -v -A -Pn 10.10.10.222
+hashcat -r /usr/share/hashcat/rules/best64.rule --stdout rule > wordlist.txt
+hashcat -m 3200 -a 0 hash wordlist.txt
+
+┌──(kali㉿kali)-[~/Delivery]
+└─$ hashcat -m 3200 -a 0 hash wordlist.txt --show                                                             1 ⚙
+$2a$10$VM6EeymRxJ29r8Wjkr8Dtev0O.1STWb4.4ScG.anuu7v0EFJwgjjO:PleaseSubscribe!21

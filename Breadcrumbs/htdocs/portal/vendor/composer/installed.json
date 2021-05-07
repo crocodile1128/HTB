@@ -1,0 +1,164 @@
+{
+    "packages": [
+        {
+            "name": "comely-io/data-types",
+            "version": "1.0.34",
+            "version_normalized": "1.0.34.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/data-types.git",
+                "reference": "833ecf364a99aa5cd161e0ebd1191860921834c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/data-types/zipball/833ecf364a99aa5cd161e0ebd1191860921834c6",
+                "reference": "833ecf364a99aa5cd161e0ebd1191860921834c6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": "^7.2"
+            },
+            "time": "2020-06-07T14:02:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\DataTypes\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "PHP data types",
+            "homepage": "https://github.com/comely-io/data-types",
+            "support": {
+                "issues": "https://github.com/comely-io/data-types/issues",
+                "source": "https://github.com/comely-io/data-types/tree/master"
+            },
+            "install-path": "../comely-io/data-types"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.2.0",
+            "version_normalized": "5.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "time": "2020-03-25T18:49:23+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/firebase/php-jwt/issues",
+                "source": "https://github.com/firebase/php-jwt/tree/master"
+            },
+            "install-path": "../firebase/php-jwt"
+        },
+        {
+            "name": "furqansiddiqui/base58check-php",
+            "version": "0.1.5",
+            "version_normalized": "0.1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/base58check-php.git",
+                "reference": "cbd6ba632bb5818722e22cd311c31996137bb3f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/base58check-php/zipball/cbd6ba632bb5818722e22cd311c31996137bb3f8",
+                "reference": "cbd6ba632bb5818722e22cd311c31996137bb3f8",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/data-types": "^1.0.30",
+                "ext-bcmath": "*",
+                "ext-openssl": "*",
+                "php-64bit": "^7.2"
+            },
+            "time": "2019-11-20T13:53:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\Base58\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Base58Check Encoding lib for PHP",
+            "homepage": "https://github.com/furqansiddiqui/base58check-php",
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/base58check-php/issues",
+                "source": "https://github.com/furqansiddiqui/base58check-php/tree/master"
+            },
+            "install-path": "../furqansiddiqui/base58check-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

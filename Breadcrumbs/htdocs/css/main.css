@@ -1,0 +1,66 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-back{
+  background: orange;
+}
+
+.nav-link{
+  color:orange;
+  transition: 0.2s;
+}
+
+.nav-link:hover{
+  color:white;
+  transition: 0.2s;
+}
+
+#start{
+  height: 100vh;
+}
+
+.btn-outline-orange{
+  border:2px  solid #F97300;
+  font-weight: bold;
+  border-radius: 50px;    
+  padding: 0.5em 2em;
+  background:none;
+  color:#fff;
+  transition:0.2s;
+}
+
+.btn-outline-orange:hover{
+  text-decoration: none;
+  cursor: pointer;
+  background: #F97300;
+  transition:0.3s;
+  color: #000;
+}
+
+footer a{
+  color: orange;
+  transition: 0.2s;
+}
+
+footer a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
+.text-orange{
+  color:orange;
+}
+
+#main-title{
+  letter-spacing: 5px;
+  padding-bottom: 2em;
+}
+
+.nav-link{
+  font-size: 150% !important;
+}
+
+th,td{
+  text-align: center;
+}
