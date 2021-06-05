@@ -1,0 +1,10 @@
+[06/05/2021 04:55:17] [e(0)] core: Failed to connect to the database: No database YAML file
+[06/05/2021 04:55:17] [d(0)] core: Created user based module store
+[06/05/2021 04:55:20] [e(0)] core: Dependency for windows/encrypted_shell_reverse_tcp is not supported
+[06/05/2021 04:55:20] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[06/05/2021 04:55:20] [e(0)] core: Dependency for windows/encrypted_reverse_tcp is not supported
+[06/05/2021 04:55:20] [e(0)] core: Dependency for windows/x64/encrypted_reverse_tcp is not supported
+[06/05/2021 04:55:20] [e(0)] core: Unexpected output running /opt/metasploit-framework-6.0.9/modules/auxiliary/gather/office365userenum.py:
+/usr/bin/env: 'python': No such file or directory
+
+[06/05/2021 04:55:20] [e(0)] core: Unable to load module /opt/metasploit-framework-6.0.9/modules/auxiliary/gather/office365userenum.py, unknown module type

